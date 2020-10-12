@@ -37,8 +37,7 @@ def sorted_matrix
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
     ]
-  storage_room.sort do |a|
-    a[3]
+  storage_room.sort 
 end 
   
   # Using Array literal syntax only, build another nested array that 
