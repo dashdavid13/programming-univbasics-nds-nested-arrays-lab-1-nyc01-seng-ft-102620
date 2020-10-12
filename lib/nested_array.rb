@@ -31,6 +31,8 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
 end
 
+
+
 def sorted_matrix
   
   storage_room = [
@@ -46,10 +48,17 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
 end
 
+
+
 def matrix_lookup(matrix, row, column)
+  
+  
+  
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
 end
+
+
 
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
