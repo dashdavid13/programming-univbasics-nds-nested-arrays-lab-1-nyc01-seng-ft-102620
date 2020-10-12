@@ -32,6 +32,11 @@ def assembled_matrix
 end
 
 def sorted_matrix
+  
+  storage_room = [
+    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
+    ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
+    ]
   storage_room.sort_by do |a|
     a[3]
 end 
