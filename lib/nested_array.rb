@@ -37,7 +37,7 @@ def sorted_matrix
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
     ]
-  storage_room.sort_by do |a|
+  storage_room.sort do |a|
     a[3]
 end 
   
