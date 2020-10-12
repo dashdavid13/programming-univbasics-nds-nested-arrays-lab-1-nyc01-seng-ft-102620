@@ -32,7 +32,9 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  
+  storage_room.sort_by do |a|
+    a[3]
+end 
   
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
