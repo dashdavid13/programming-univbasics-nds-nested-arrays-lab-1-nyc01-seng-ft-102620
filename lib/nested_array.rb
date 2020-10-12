@@ -38,7 +38,7 @@ def sorted_matrix
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
     ]
  
-end 
+ 
 
   
   # Using Array literal syntax only, build another nested array that 
