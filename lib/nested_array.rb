@@ -37,8 +37,7 @@ def sorted_matrix
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
     ]
-  storage_room.sort_by! do |e| 
-  e.downcase 
+ 
 end 
 
   
