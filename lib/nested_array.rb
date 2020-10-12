@@ -17,10 +17,9 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  joint_array = [
-    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
+  storage_room = [
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
-    
+    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ]
   
   
